@@ -1,0 +1,40 @@
+Problem:    hw
+Rows:       5
+Columns:    3
+Non-zeros:  15
+Status:     OPTIMAL
+Objective:  z = 343.3908046 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 z            B        343.391                             
+     2 A            B        3.86494                           5 
+     3 B            B        5.47893                         7.5 
+     4 C            NU          3.75                        3.75       44.8276 
+     5 D            NU           2.5                         2.5       70.1149 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 y1           B        9.09962             0               
+     2 y2           NL             0             0                    -9.43678 
+     3 y3           B        7.18391             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,28 @@
+set MAT := a b c d;
+
+param COST_MAT :=
+    a 5
+    b 7.5
+    c 3.75
+    d 2.5;
+
+param PROTEIN_MAT :=
+    a 0.18
+    b 0.31
+    c 0.12
+    d 0.18;
+
+
+param CARBOHYDRATE_MAT :=
+    a 0.43
+    b 0.25
+    c 0.12
+    d 0.5;
+
+param FAT_MAT :=
+    a 0.31
+    b 0.37
+    c 0.37
+    d 0.12;
+
+end;

@@ -1,0 +1,29 @@
+set NUM := y1 y2 y3;
+
+param OUTPUT_NUM :=
+    y1 18
+    y2 31
+    y3 25;
+
+param A_PRICE :=
+    y1 0.18
+    y2 0.43
+    y3 0.31;
+
+
+param B_PRICE :=
+    y1 0.31
+    y2 0.25
+    y3 0.37;
+
+param C_PRICE :=
+    y1 0.12
+    y2 0.12
+    y3 0.37;
+
+param D_PRICE :=
+    y1 0.18
+    y2 0.5
+    y3 0.12;
+
+end;
