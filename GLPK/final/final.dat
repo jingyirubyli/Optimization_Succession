@@ -1,0 +1,23 @@
+/* Define the sets */
+set NODES := v0 v1 v2 v3 v4 v5 v6;
+set ARCS := (v0, v1) (v0, v2) (v1, v3) (v2, v1) (v2, v4) (v3, v4) (v3, v5) (v3, v6) (v4, v1) (v4, v5) (v4, v6);
+
+/* Define the parameters */
+param : capacity cost :=
+v0 v1 7 4
+v0 v2 8 4
+v1 v3 9 1
+v2 v1 5 5
+v2 v4 9 4
+v3 v4 6 2
+v3 v5 10 6
+v3 v6 10 6
+v4 v1 2 1
+v4 v5 5 2
+v4 v6 5 2;
+
+/* Define the supplies and demands */
+param : supplyA supplyB :=
+v0 6 5
+v5 -6 0
+v6 0 -5;
